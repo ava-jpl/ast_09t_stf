@@ -137,11 +137,10 @@ class temp_fit():
         ws = 1.0  # wind speed
         f = 0.0036  # friction factor
         Tenv = AVERAGE_BACKGROUND_TEMP  # environmental temperature
-        # Surface temperature (using high temperature component) ??? (does this
-        # make sense)
+        # Surface temperature (using high temperature component)
         Tsurf = self.t1
         Area_high_temp = self.a1  # area of the high temperature component
-        # effective atmospheric temperature ??? (does this make sense)
+        # effective atmospheric temperature
         Teff = (Tsurf + Tenv) / 2
         p = 360.77819 * math.pow(Teff, -1.00336)  # Atmospheric density
         A = 0.14  # dimensionless value for hot plate
