@@ -1,0 +1,41 @@
+{
+  "command":"/home/ops/verdi/ops/ast_09t_stf/generate.py",
+  "imported_worker_files": {
+    "/home/ops/.netrc": "/home/ops/.netrc",
+    "/home/ops/.aws": "/home/ops/.aws"
+  },
+  "disk_usage":"10GB",
+  "recommended-queues": ["factotum-job_worker-large", "ava-job_worker-large", "ava-job_worker-small"],
+  "soft_time_limit": 2000,
+  "time_limit": 2800,
+  "params" : [
+    {
+      "name": "prod_type",
+      "destination": "context"
+    },
+    {
+      "name": "localize_url",
+      "destination": "localize"
+    },
+    {
+      "name": "prod_id",
+      "destination": "context"
+    },
+    {
+      "name": "starttime",
+      "destination": "context"
+    },
+    {
+      "name": "endtime",
+      "destination": "context"
+    },
+    {
+      "name": "location",
+      "destination": "context"
+    },
+    {
+      "name": "prod_metadata",
+      "destination": "context"
+    }
+  ]
+}

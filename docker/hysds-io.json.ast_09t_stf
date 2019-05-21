@@ -1,0 +1,35 @@
+{
+    "label": "Generate - AST_09T-STF",
+    "submission_type": "iteration",
+    "enable_dedup": false,
+    "params" : [
+    {
+      "name": "prod_type",
+      "from": "dataset_jpath:_type"
+    },
+    {
+      "name": "localize_url",
+      "from": "dataset_jpath:_source.urls.0"
+    },
+    {
+      "name": "prod_id",
+      "from": "dataset_jpath:_source.id"
+    },
+    {
+      "name": "location",
+      "from": "dataset_jpath:_source.location"
+    },
+    {
+      "name": "starttime",
+      "from": "dataset_jpath:_source.starttime"
+    },
+    {
+      "name": "endtime",
+      "from": "dataset_jpath:_source.endtime"
+    },
+    {
+      "name": "prod_metadata",
+      "from": "dataset_jpath:_source.metadata"
+    }
+  ]
+}
