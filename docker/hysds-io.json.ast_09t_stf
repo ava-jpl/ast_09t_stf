@@ -9,7 +9,7 @@
     },
     {
       "name": "localize_url",
-      "from": "dataset_jpath:_source.urls.0"
+      "from": "dataset_jpath:_source.urls.1"
     },
     {
       "name": "prod_id",
