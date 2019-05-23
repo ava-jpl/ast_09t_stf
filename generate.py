@@ -23,7 +23,7 @@ PROD = "{}-{}-{}" # eg: AST_L1T-20190514T341405_20190514T341435-v1.0
 ALLOWED_INPUT_TYPES = ['AST_L1T']
 INDEX = 'grq_{}_{}'.format(VERSION, PROD_SHORT_NAME)
 PRODUCT_EXTENSION = 'HDF'
-OUTPUT_FILENAME = '().tif'
+OUTPUT_FILENAME = '{}.tif'
 
 def main():
     '''Generates the product if is not on GRQ'''
